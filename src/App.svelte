@@ -1,6 +1,6 @@
 <script>
   import logo from "./assets/svelte.png";
-  import Counter from "./lib/Counter.svelte";
+  import Counter from "./components/Counter.svelte";
   let valor = 3;
 
   function callback(val) {
