@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "daisyui": "^1.14.4",
+    "esbuild": "^0.13.6",
     "source-map-js": "^0.6.2"
   }
 }
