@@ -1,7 +1,10 @@
 <script>
-  let count = 0;
+  export let val = 1;
+  export let callback;
+  let count = val;
   const increment = () => {
     count += 1;
+    callback(count);
   };
 </script>
 

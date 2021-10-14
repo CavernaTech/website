@@ -1,13 +1,19 @@
 <script>
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+  import logo from "./assets/svelte.png";
+  import Counter from "./lib/Counter.svelte";
+  let valor = 3;
+
+  function callback(val) {
+    valor = val;
+  }
+
 </script>
 
 <main>
   <img src={logo} alt="Svelte Logo" />
-  <h1>Hello world!</h1>
+  <h1>Hello world! {valor}</h1>
 
-  <Counter />
+  <Counter val={valor} callback={callback} />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
@@ -22,8 +28,8 @@
 
 <style>
   :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   main {
