@@ -12,7 +12,7 @@
         <div class="w-full flex items-center justify-between">
           <a
             class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            href="#/"
+            href="https://cavernatech.dev"
           >
             <span
               class="bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-blue-400 to-purple-500"
@@ -147,9 +147,9 @@
 
         <!--Footer-->
         <div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
-          <a class="text-gray-500 no-underline hover:no-underline" href="#"
-            >&copy; CavernaTech {new Date().getFullYear()}</a
-          >
+          <a class="text-gray-500 no-underline hover:no-underline" href="#">
+            &copy; CavernaTech {new Date().getFullYear()}
+          </a>
         </div>
       </div>
     </div>
