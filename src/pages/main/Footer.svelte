@@ -10,7 +10,7 @@ import Info from "../../components/Info.component.svelte";
       <Info href="https://wa.me/5504797402365" title="WhatsApp - J. Gabriel G." />
       <Info href="https://wa.me/5504792037866" title="WhatsApp - Josnei D." />
       <Info href="mailto:jgabrielgruber@hotmail.com" title="E-mail - J. Gabriel G." />
-      <Info href="mailto:josneidrosdek@gmail.com" title="WhatsApp - Josnei D." />
+      <Info href="mailto:josneidrosdek@gmail.com" title="E-mail - Josnei D." />
       <Info href="https://www.instagram.com/cavernatech.dev" title="Instagram - CavernaTech" />
     </div>
     <form action="#" class="form">
