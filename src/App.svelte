@@ -1,10 +1,10 @@
 <script>
-import Soon from "./pages/Soon.page.svelte";
+import Main from "./pages/main/Main.page.svelte";
 
 </script>
 
 <main>
-  <Soon />
+  <Main />
 </main>
 
 <style>
