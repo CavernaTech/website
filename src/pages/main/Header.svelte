@@ -1,17 +1,17 @@
 <script>
+  import MailBox from "../../components/MailBox.component.svelte";
   import Logo from "../../components/Logo.component.svelte";
-  var mailbox = "src/assets/MailBox.svg";
 </script>
 
 <main>
   <div class="header">
     <div class="partners" />
     <div class="main">
-      <Logo />
-      <div class="contact">
-        <a href="#footer">
-          <img src={mailbox} alt="Entrar em Contato" />
-        </a>
+      <div class="logo">
+        <Logo />
+      </div>
+      <div class="mail-box">
+        <MailBox />
       </div>
     </div>
     <div class="projects" />
@@ -30,8 +30,11 @@
   .main {
     @apply flex flex-row w-3/5;
   }
-  .contact {
-    @apply flex flex-wrap content-end w-1/5;
+  .logo {
+    @apply w-4/5;
+  }
+  .mail-box {
+    @apply w-1/5;
   }
   .projects {
     @apply w-1/5;
