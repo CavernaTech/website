@@ -10,8 +10,8 @@
         >
           CavernaTech
         </h2>
-        <h3 class="text-xl md:text-3xl mt-10">Em Breve</h3>
-        <p class="text-md md:text-xl mt-10">
+        <h3 class="text-xl md:text-3xl mt-10 text-gray-700">Em Breve</h3>
+        <p class="text-md md:text-xl mt-10 text-gray-700">
           <a class="hover:underline" href="https://www.cavernatech.dev"
             >CavernaTech</a
           > é uma empresa de desenvolvimento de softwares, aplicativos, plataformas,
