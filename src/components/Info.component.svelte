@@ -1,29 +1,29 @@
 <script>
+  import { InfoIcon } from 'svelte-feather-icons'
   export var href = "";
-  export var icon = "";
+  export var icon = InfoIcon;
   export var title = "";
 </script>
 
 <main>
-  <a class="info" href={href}>
+  <div class="info">
     <div class="ico">
-      <img src={icon} alt="icone">
+      <svelte:component this={icon} />
     </div>
-    <div class="title">
-      <h3>{title}</h3>
-    </div>
-  </a>
+    <a class="title" {href}>
+      {title}
+    </a>
+  </div>
 </main>
 
 <style lang="postcss" type="text/postcss">
   .info {
-    @apply flex flex-row;
+    @apply flex flex-row h-10 m-4 ml-0;
   }
   .ico {
-    @apply w-1/5 h-10;
+    @apply w-10 text-gray-100;
   }
   .title {
-    @apply w-4/5 h-10;
+    @apply w-full text-gray-100 text-xl text-left pl-10 m-auto;
   }
-
 </style>

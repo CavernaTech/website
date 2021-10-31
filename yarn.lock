@@ -1025,6 +1025,13 @@
   dependencies:
     "has-flag" "^4.0.0"
 
+"svelte-feather-icons@^3.5.0":
+  "integrity" "sha512-AO6vwbI+WH8xouZRIxyenUV2olSAjp0QFgBa4esyS9ZxvBmKkRu9VTfgbMW0F1N7QTOWbMpgaForsnOcFGfXeg=="
+  "resolved" "https://registry.npmjs.org/svelte-feather-icons/-/svelte-feather-icons-3.5.0.tgz"
+  "version" "3.5.0"
+  dependencies:
+    "svelte" "^3.38.2"
+
 "svelte-hmr@^0.14.7":
   "integrity" "sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog=="
   "resolved" "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.14.7.tgz"
@@ -1042,7 +1049,7 @@
     "sorcery" "^0.10.0"
     "strip-indent" "^3.0.0"
 
-"svelte@^3.23.0", "svelte@^3.34.0", "svelte@^3.37.0", "svelte@>=3.19.0":
+"svelte@^3.23.0", "svelte@^3.34.0", "svelte@^3.37.0", "svelte@^3.38.2", "svelte@>=3.19.0":
   "integrity" "sha512-Lj+TJfSeod8UGnoG2opysdlCy4MCck/hHQsZwtNPXdYTwLTz+WC37QwewPhZtd+h3dpfps4h9QzFxWGVI4tzQw=="
   "resolved" "https://registry.npmjs.org/svelte/-/svelte-3.43.2.tgz"
   "version" "3.43.2"
