@@ -33,52 +33,54 @@
         title="Instagram - CavernaTech"
       />
     </div>
-    <form action="#" class="section">
-      <h3 class="section-title">Deixe seu contato conosco:</h3>
-      <label class="field-label" for="name">Nome</label>
-      <input
-        id="name"
-        type="text"
-        placeholder="Ex. Gordon Freeman"
-        class="field"
-        required
-      />
-      <label class="field-label" for="email">E-mail</label>
-      <input
-        id="email"
-        type="email"
-        placeholder="Ex. gordon@blackmesa.com"
-        class="field"
-        required
-      />
-      <label class="field-label" for="tel">Telefone</label>
-      <input
-        id="tel"
-        type="tel"
-        placeholder="Telefone"
-        class="field"
-        required
-      />
-      <label class="field-label" for="subject">Interesse:</label>
-      <select name="subject" id="subject" class="subject">
-        <option value="app">Aplicativo</option>
-        <option value="platform">Plataforma</option>
-        <option value="website">Site</option>
-        <option value="portal">Portal</option>
-        <option value="iot">Automação</option>
-      </select>
-      <button class="submit" type="submit">Enviar</button>
-    </form>
+    <div class="section">
+      <form action="#" class="w-full">
+        <h3 class="section-title">Deixe seu contato conosco:</h3>
+        <label class="field-label" for="name">Nome</label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Ex. Gordon Freeman"
+          class="field"
+          required
+        />
+        <label class="field-label" for="email">E-mail</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Ex. gordon@blackmesa.com"
+          class="field"
+          required
+        />
+        <label class="field-label" for="tel">Telefone</label>
+        <input
+          id="tel"
+          type="tel"
+          placeholder="Telefone"
+          class="field"
+          required
+        />
+        <label class="field-label" for="subject">Interesse:</label>
+        <select name="subject" id="subject" class="subject">
+          <option value="app">Aplicativo</option>
+          <option value="platform">Plataforma</option>
+          <option value="website">Site</option>
+          <option value="portal">Portal</option>
+          <option value="iot">Automação</option>
+        </select>
+        <button class="submit" type="submit">Enviar</button>
+      </form>
+    </div>
   </div>
 </main>
 
 <style lang="postcss" type="text/postcss">
   .footer {
-    @apply flex min-h-full;
+    @apply min-h-full grid md:grid-cols-2 grid-cols-1 gap-2 place-items-stretch;
     @apply bg-gray-800;
   }
   .section {
-    @apply w-2/4 p-20;
+    @apply p-20;
   }
   .section-title {
     @apply text-gray-100 font-bold text-2xl mb-6;
