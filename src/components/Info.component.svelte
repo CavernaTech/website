@@ -18,7 +18,7 @@
 
 <style lang="postcss" type="text/postcss">
   .info {
-    @apply flex flex-row h-10 m-4 ml-0;
+    @apply flex flex-row h-10 m-2 ml-0;
   }
   .ico {
     @apply w-10 text-gray-100;

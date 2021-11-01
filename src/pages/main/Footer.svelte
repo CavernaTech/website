@@ -107,7 +107,7 @@
     @apply input w-full;
   }
   .field-label {
-    @apply label label-text text-gray-100;
+    @apply label label-text text-gray-100 text-lg;
   }
   .subject {
     @apply select w-full;
