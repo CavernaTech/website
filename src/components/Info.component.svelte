@@ -18,12 +18,12 @@
 
 <style lang="postcss" type="text/postcss">
   .info {
-    @apply flex flex-row h-10 m-2 ml-0;
+    @apply flex flex-row h-8 m-4 ml-0;
   }
   .ico {
-    @apply w-10 text-gray-100;
+    @apply w-8 text-gray-100;
   }
   .title {
-    @apply w-full text-gray-100 text-xl text-left pl-10 m-auto;
+    @apply w-full text-gray-100 text-lg text-left pl-8 m-auto;
   }
 </style>
