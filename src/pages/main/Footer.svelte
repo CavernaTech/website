@@ -32,13 +32,13 @@
               />
               <Info
                 icon={MailIcon}
-                href="mailto:jgabrielgruber@hotmail.com"
-                title="E-mail - J. Gabriel G."
+                href="mailto:gabriel.gruber@cavernatech.dev"
+                title="E-mail - J. Gabriel G Gruber"
               />
               <Info
                 icon={MailIcon}
-                href="mailto:josneidrosdek@gmail.com"
-                title="E-mail - Josnei D."
+                href="mailto:josnei.drosdek@cavernatech.dev"
+                title="E-mail - Josnei Drosdek"
               />
               <Info
                 icon={InstagramIcon}
