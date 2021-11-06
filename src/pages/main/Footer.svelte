@@ -7,9 +7,16 @@
     PhoneIcon,
     SendIcon,
   } from "svelte-feather-icons";
-  const logo = "src/assets/CavernaTech.svg";
+  import TermsController from "../../controllers/terms.controller";
+  import Terms from "../../components/Terms.component.svelte";
+  const logo = "../../assets/CavernaTech.svg";
 
   let subject = "app";
+
+  let agreed = TermsController.isAgreed();
+  let whenAgreed = TermsController.whenAgreed();
+
+  const handleAgreement = TermsController.agreeTerms;
 </script>
 
 <main>
@@ -115,7 +122,10 @@
               rows="5"
             />
           {/if}
-          <button class="submit" type="submit">Enviar</button>
+          <Terms bind:agreed={agreed} onAgreement={handleAgreement} bind:whenAgreed={whenAgreed}/>
+          <button class="submit" disabled={!agreed} type="submit">
+            Enviar
+          </button>
         </form>
       </div>
     </div>
@@ -158,6 +168,9 @@
   }
   .submit {
     @apply btn btn-primary w-full mt-10;
+  }
+  .submit:disabled {
+    @apply btn w-full mt-10 btn-disabled text-gray-500;
   }
   .copyright {
     @apply pb-10 pl-20 flex flex-row text-gray-100 text-xl font-bold align-middle;
