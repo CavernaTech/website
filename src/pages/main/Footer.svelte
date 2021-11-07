@@ -7,16 +7,39 @@
     PhoneIcon,
     SendIcon,
   } from "svelte-feather-icons";
+
   import TermsController from "../../controllers/terms.controller";
+  import ContatoController from "../../controllers/contato.controller";
   import Terms from "../../components/Terms.component.svelte";
+  import ContatoModel from "../../models/contato.model";
+
   const logo = "../../assets/CavernaTech.svg";
 
-  let subject = "app";
+  let email = '';
+  let name = '';
+  let tel = '';
+  let subject = 'app';
+  let message = '';
 
   let agreed = TermsController.isAgreed();
   let whenAgreed = TermsController.whenAgreed();
 
   const handleAgreement = TermsController.agreeTerms;
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const contato = new ContatoModel({
+      email,
+      name,
+      tel,
+      subject,
+      message,
+    });
+    if (await ContatoController.addContato(contato)) {
+      alert('Contato salvo!');
+    } else {
+      alert('Tivemos um problema ao salvar seu contato...');
+    }
+  };
 </script>
 
 <main>
@@ -72,7 +95,7 @@
         </div>
       </div>
       <div class="section">
-        <form action="#" class="w-full">
+        <form action="#" class="w-full" on:submit={handleSubmit}>
           <h3 class="section-title">Deixe seu contato conosco:</h3>
           <label class="field-label" for="name">Nome</label>
           <input
@@ -81,6 +104,7 @@
             placeholder="Ex. Gordon Freeman"
             class="field"
             required
+            bind:value={name}
           />
           <label class="field-label" for="email">E-mail</label>
           <input
@@ -89,6 +113,7 @@
             placeholder="Ex. gordon@blackmesa.com"
             class="field"
             required
+            bind:value={email}
           />
           <label class="field-label" for="tel">Telefone</label>
           <input
@@ -97,6 +122,7 @@
             placeholder="Telefone"
             class="field"
             required
+            bind:value={tel}
           />
           <label class="field-label" for="subject">Interesse:</label>
           {#if subject != "other"}
@@ -120,6 +146,7 @@
               class="textarea w-full"
               placeholder="Ex. Gostaria de uma solução completa!"
               rows="5"
+              bind:value={message}
             />
           {/if}
           <Terms bind:agreed={agreed} onAgreement={handleAgreement} bind:whenAgreed={whenAgreed}/>
