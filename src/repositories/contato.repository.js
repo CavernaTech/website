@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DB_URL = "https://cavernatech-contatos-default-rtdb.firebaseio.com/";
+const DB_URL = "https://cavernatech-website-default-rtdb.europe-west1.firebasedatabase.app/";
 const DB_NAME = "contatos.json";
 
 class ContatoRepository {
