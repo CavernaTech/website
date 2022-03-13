@@ -1,11 +1,9 @@
 <script>
-import Main from "./pages/main/Main.page.svelte";
+import Index from "./views/index.page.svelte";
 
 </script>
 
-<main>
-  <Main />
-</main>
+<Index />
 
 <style>
 </style>
