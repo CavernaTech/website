@@ -23,6 +23,11 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
+"@fortawesome/fontawesome-free@^6.0.0":
+  "integrity" "sha512-6LB4PYBST1Rx40klypw1SmSDArjFOcfBf2LeX9Zg5EKJT2eXiyiJq+CyBYKeXyK0sXS2FsCJWSPr/luyhuvh0Q=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-6.0.0.tgz"
+  "version" "6.0.0"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -143,6 +148,13 @@
     "normalize-range" "^0.1.2"
     "picocolors" "^0.2.1"
     "postcss-value-parser" "^4.1.0"
+
+"axios@^0.24.0":
+  "integrity" "sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
+  "version" "0.24.0"
+  dependencies:
+    "follow-redirects" "^1.14.4"
 
 "balanced-match@^1.0.0":
   "integrity" "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
@@ -438,6 +450,11 @@
   "version" "7.0.1"
   dependencies:
     "to-regex-range" "^5.0.1"
+
+"follow-redirects@^1.14.4":
+  "integrity" "sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.5.tgz"
+  "version" "1.14.5"
 
 "fraction.js@^4.1.1":
   "integrity" "sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg=="
@@ -1025,10 +1042,22 @@
   dependencies:
     "has-flag" "^4.0.0"
 
+"svelte-feather-icons@^3.5.0":
+  "integrity" "sha512-AO6vwbI+WH8xouZRIxyenUV2olSAjp0QFgBa4esyS9ZxvBmKkRu9VTfgbMW0F1N7QTOWbMpgaForsnOcFGfXeg=="
+  "resolved" "https://registry.npmjs.org/svelte-feather-icons/-/svelte-feather-icons-3.5.0.tgz"
+  "version" "3.5.0"
+  dependencies:
+    "svelte" "^3.38.2"
+
 "svelte-hmr@^0.14.7":
   "integrity" "sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog=="
   "resolved" "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.14.7.tgz"
   "version" "0.14.7"
+
+"svelte-icons@^2.1.0":
+  "integrity" "sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg=="
+  "resolved" "https://registry.npmjs.org/svelte-icons/-/svelte-icons-2.1.0.tgz"
+  "version" "2.1.0"
 
 "svelte-preprocess@^4.9.8":
   "integrity" "sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og=="
@@ -1042,7 +1071,7 @@
     "sorcery" "^0.10.0"
     "strip-indent" "^3.0.0"
 
-"svelte@^3.23.0", "svelte@^3.34.0", "svelte@^3.37.0", "svelte@>=3.19.0":
+"svelte@^3.23.0", "svelte@^3.34.0", "svelte@^3.37.0", "svelte@^3.38.2", "svelte@>=3.19.0":
   "integrity" "sha512-Lj+TJfSeod8UGnoG2opysdlCy4MCck/hHQsZwtNPXdYTwLTz+WC37QwewPhZtd+h3dpfps4h9QzFxWGVI4tzQw=="
   "resolved" "https://registry.npmjs.org/svelte/-/svelte-3.43.2.tgz"
   "version" "3.43.2"

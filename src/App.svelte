@@ -1,12 +1,9 @@
 <script>
-import Main from "./pages/main/Main.page.svelte";
-import Soon from "./pages/Soon.page.svelte";
+import Index from "./views/index.page.svelte";
 
 </script>
 
-<main>
-  <Soon />
-</main>
+<Index />
 
 <style>
 </style>
