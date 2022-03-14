@@ -22,7 +22,7 @@
     <div class="hero min-h-full bg-base-200">
       <div class="flex-col hero-content lg:flex-row-reverse">
         <img
-          src="/src/assets/img/Man-and-woman-doing-handshake.svg"
+          src="assets/img/Man-and-woman-doing-handshake.svg"
           class="max-w-sm "
         />
         <div>
@@ -41,7 +41,7 @@
     <div class="hero min-h-full bg-base-200">
       <div class="flex-col hero-content lg:flex-row">
         <img
-          src="/src/assets/img/Woman-attending-clients-call.svg"
+          src="assets/img/Woman-attending-clients-call.svg"
           class="max-w-sm"
         />
         <div>

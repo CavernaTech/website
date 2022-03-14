@@ -1,5 +1,5 @@
 <script>
-  var mailbox = "src/assets/MailBox.svg";
+  var mailbox = "assets/MailBox.svg";
 </script>
 
 <main>

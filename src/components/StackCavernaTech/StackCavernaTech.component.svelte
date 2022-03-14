@@ -1,6 +1,6 @@
 <script>
-  import LogosPartner from "../assets/logos-partner/logo-partner.js";
-  import CardStack from "./CardStack.component.svelte";
+  import LogosPartner from "./logo-partner.js";
+  import CardStack from "../CardStack.component.svelte";
 </script>
 
 <section class="pt-20 pb-48">

@@ -1,5 +1,5 @@
 <script>
-  import StackCavernaTech from "../../components/StackCavernaTech.component.svelte";
+  import StackCavernaTech from "../../components/StackCavernaTech/StackCavernaTech.component.svelte";
   import Contact from "../../components/Contact.component.svelte";
   import Sobre from "../../components/Sobre.component.svelte";
 import IntroCavernaTech from "../../components/IntroCavernaTech.component.svelte";
