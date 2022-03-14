@@ -25,7 +25,7 @@
         class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
         href="/"
       >
-        <img src="src/assets/caverna-tech/Logo.svg" class="max-h-10" />
+        <img src="assets/caverna-tech/Logo.svg" class="max-h-10" />
       </a>
       <button
         class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

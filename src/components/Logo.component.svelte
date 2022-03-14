@@ -1,7 +1,7 @@
 <script>
-  var logo = "src/assets/CavernaTech_dark.svg";
+  var logo = "assets/CavernaTech_dark.svg";
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    logo = "src/assets/CavernaTech.svg";
+    logo = "assets/CavernaTech.svg";
   }
 </script>
 
