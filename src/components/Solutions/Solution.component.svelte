@@ -15,10 +15,26 @@
     } from "svelte-feather-icons";
     import AndroidContent from "./DesenvolvimentoAplicativos/AndroidContent.component.svelte";
     import DesenvolvimentoSoftwareContent from "./DesenvolvimentoSoftware/DesenvolvimentoSoftwareContent.component.svelte";
+    import Integracoes from "./Integracoes/Integracoes.component.svelte";
 </script>
 
 <section class="flex flex-row min-h-screen justify-center bg-white">
     <div class="flex flex-col min-w-full items-center">
+        <div class="p-5">
+            <p class="font-light text-4xl text-center">
+                Confira nossas soluções
+            </p>
+            <p class="font-bold text-4xl text-center">
+                teremos prazer em atende-los
+            </p>
+            <div class="container mt-5 text-xl text-center">
+                Conecte sistemas, softwares e aplicativos, gerencie APIs e
+                automatize dados e processos da sua empresa em uma única plataforma.
+                <br />
+                Garanta escalabilidade, segurança e agilidade para as suas integrações
+                complexas.
+            </div>
+        </div>
         <Tabs>
             <div class="flex flex-row container justify-center">
                 <TabList>
@@ -41,7 +57,7 @@
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>Third panel</h2>
+                    <Integracoes />
                 </TabPanel>
 
                 <TabPanel>

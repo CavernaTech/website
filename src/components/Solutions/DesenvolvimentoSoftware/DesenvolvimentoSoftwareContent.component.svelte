@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <div>
         <div class="p-5">
             <p class="font-bold text-4xl text-center">
                 Vantagens de contratar a CavernaTech
@@ -83,11 +83,11 @@
             />
             <CardDesc
                 title="Gestão eficiente e inovadora"
-                description="Gestão proativa nas necessidades de cada cliente com KPIs que monitoram as entregas. Se você precisa, a UDS se adapta. Olhamos pra cada indivíduo, mantendo o fit cultural, monitorando engajamento e indicadores de performance."
+                description="Gestão proativa nas necessidades de cada cliente com KPIs que monitoram as entregas. Se você precisa, a CavernaTech se adapta. Olhamos pra cada indivíduo, mantendo o fit cultural, monitorando engajamento e indicadores de performance."
             />
             <CardDesc
                 title="Retorno sobre investimento (ROI)"
-                description="Velocidade para começar, zero burocracia, alto conhecimento em engenharia de software e redução dos seus custos internos tornam as equipes da UDS a melhor opção para aumentar seu retorno sobre investimento (ROI)."
+                description="Velocidade para começar, zero burocracia, alto conhecimento em engenharia de software e redução dos seus custos internos tornam as equipes da CavernaTech a melhor opção para aumentar seu retorno sobre investimento (ROI)."
             />
             <CardDesc
                 title="Responsabilidade com o resultado"

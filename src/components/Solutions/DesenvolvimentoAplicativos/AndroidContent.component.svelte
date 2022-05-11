@@ -3,7 +3,7 @@
 </script>
 
 <section class="mt-10">
-    <div class="w-screen flex flex-row justify-evenly">
+    <div class="flex md:flex-row sm:flex-col justify-evenly">
         <CardSolution
             imgSrc="assets/icons/outline/android.svg"
             altImg="Android"
