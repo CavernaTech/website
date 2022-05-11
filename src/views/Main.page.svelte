@@ -1,6 +1,6 @@
 <script>
   import Contact from "../components/Contact.component.svelte";
-  import IntroCavernaTech from "./contents/Intro.content.svelte";
+  import IntroCavernaTech from "../components/Intro.component.svelte";
   import Solution from "../components/Solutions/Solution.component.svelte";
 </script>
 

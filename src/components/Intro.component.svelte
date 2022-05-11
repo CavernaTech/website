@@ -1,12 +1,8 @@
 <script>
-  import {
-    AwardIcon,
-    UsersIcon,
-    CheckIcon,
-  } from "svelte-feather-icons";
+  import { AwardIcon, UsersIcon, CheckIcon } from "svelte-feather-icons";
 </script>
 
-<section class="pb-20 bg-gray-200 -mt-24" id="intro-id">
+<section class="pb-20 bg-gray-50 -mt-24" id="intro-id">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap">
       <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -20,7 +16,7 @@
               <AwardIcon />
             </div>
             <h6 class="text-xl font-semibold">Solução On Demand</h6>
-            <p class="mt-2 mb-4 text-blueGray-500">
+            <p class="mt-2 mb-4 ">
               Nossos trabalhos são elaborados e executados com um amplo know-how
               em tecnologias, trabalho em parceria direta com clientes e
               flexibilidade para acessar a equipe.
@@ -40,7 +36,7 @@
               <CheckIcon />
             </div>
             <h6 class="text-xl font-semibold">Qualidade</h6>
-            <p class="mt-2 mb-4 text-blueGray-500">
+            <p class="mt-2 mb-4 ">
               Desenvolvemos seguindo padrões. Tornamos qualquer aplicação
               escalonável conforme o projeto! <br /> E garantimos código limpo tornando
               qualquer projeto mais leve e otimizado.
@@ -60,7 +56,7 @@
               <UsersIcon />
             </div>
             <h6 class="text-xl font-semibold">Melhor Equipe</h6>
-            <p class="mt-2 mb-4 text-blueGray-500">
+            <p class="mt-2 mb-4 ">
               A capacidade de colaboração é o indicador de sucesso de qualquer
               empresa, com isso nossa equipe e composta com profissionais com a
               experiência certa para atender as mais diversas necessidades do
@@ -74,13 +70,13 @@
     <div class="flex flex-wrap items-center mt-32">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
         <div
-          class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-32 h-32 mb-6 shadow-lg rounded-full bg-gray-100"
+          class="w-72 p-3 text-center inline-flex items-center justify-center mb-6"
         >
           <img src="assets/caverna-tech/logo-dark.svg" alt="" />
         </div>
-        <h3 class="text-3xl mb-2 font-semibold leading-normal">
-          Quando nos perguntam, por que <span class="text-4xl">CavernaTech</span
-          >?
+        <h3 class="text-3xl mb-2 font-light leading-normal">
+          Quando nos perguntam, por que
+          <span class="text-4xl font-bold"> CavernaTech? </span>
         </h3>
         <p
           class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
@@ -99,7 +95,7 @@
 
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div
-          class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-red-400"
+          class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700"
         >
           <img
             alt="..."
