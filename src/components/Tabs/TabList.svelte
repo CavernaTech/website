@@ -4,6 +4,6 @@
 
 <style lang="postcss" type="text/postcss">
 	.tab-list {
-		@apply border-b-2 border-purple-600
+		@apply xl:border-b-2 border-purple-600
 	}
 </style>

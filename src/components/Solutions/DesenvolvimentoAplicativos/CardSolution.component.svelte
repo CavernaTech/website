@@ -1,13 +1,11 @@
 <script>
-    import { SvelteComponent } from "svelte";
-
     export var imgSrc = null;
     export var altImg = "not defined";
     export var firstText = "Undefined";
     export var secondText = "undefined";
 </script>
 
-<div>
+<div class="flex flex-col items-center">
     {#if typeof imgSrc == typeof String()}
         <img src={imgSrc} alt={altImg} class="h-10" />
     {:else}

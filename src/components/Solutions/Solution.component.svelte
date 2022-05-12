@@ -25,49 +25,50 @@
                 Confira nossas soluções
             </p>
             <p class="font-bold text-4xl text-center">
-                teremos prazer em atende-los
+                teremos prazer em atendê-los
             </p>
-            <div class="container mt-5 text-xl text-center">
-                Conecte sistemas, softwares e aplicativos, gerencie APIs e
-                automatize dados e processos da sua empresa em uma única plataforma.
-                <br />
-                Garanta escalabilidade, segurança e agilidade para as suas integrações
-                complexas.
-            </div>
         </div>
-        <Tabs>
-            <div class="flex flex-row container justify-center">
-                <TabList>
-                    <Tab icon={SmartphoneIcon}
-                        >Desenvolvimento de Aplicativos</Tab
-                    >
-                    <Tab icon={CodeIcon}>Desenvolvimento de Software</Tab>
-                    <Tab icon={GridIcon}>Integrações</Tab>
-                    <Tab icon={RefreshCcwIcon}>Automação</Tab>
-                    <Tab icon={GitMergeIcon}>Outsourcing IT</Tab>
-                </TabList>
-            </div>
-            <div class="flex flex-row container justify-center">
-                <TabPanel>
-                    <AndroidContent />
-                </TabPanel>
+        <div class="max-w-full">
+            <Tabs>
+                <div class="flex flex-row justify-center">
+                    <TabList>
+                        <div
+                            class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-11"
+                        >
+                            <Tab icon={SmartphoneIcon}>
+                                Desenvolvimento de Aplicativos
+                            </Tab>
+                            <Tab icon={CodeIcon}
+                                >Desenvolvimento de Software</Tab
+                            >
+                            <Tab icon={GridIcon}>Integrações</Tab>
+                            <Tab icon={RefreshCcwIcon}>Automação</Tab>
+                            <Tab icon={GitMergeIcon}>Outsourcing IT</Tab>
+                        </div>
+                    </TabList>
+                </div>
+                <div class="flex flex-row container justify-center">
+                    <TabPanel>
+                        <AndroidContent />
+                    </TabPanel>
 
-                <TabPanel>
-                    <DesenvolvimentoSoftwareContent />
-                </TabPanel>
+                    <TabPanel>
+                        <DesenvolvimentoSoftwareContent />
+                    </TabPanel>
 
-                <TabPanel>
-                    <Integracoes />
-                </TabPanel>
+                    <TabPanel>
+                        <Integracoes />
+                    </TabPanel>
 
-                <TabPanel>
-                    <h2>Third aa</h2>
-                </TabPanel>
+                    <TabPanel>
+                        <h2>Third aa</h2>
+                    </TabPanel>
 
-                <TabPanel>
-                    <h2>Third bb</h2>
-                </TabPanel>
-            </div>
-        </Tabs>
+                    <TabPanel>
+                        <h2>Third bb</h2>
+                    </TabPanel>
+                </div>
+            </Tabs>
+        </div>
     </div>
 </section>
