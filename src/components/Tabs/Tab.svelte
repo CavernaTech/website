@@ -13,7 +13,7 @@
 <button
 	class:selected={$selectedTab === tab}
 	on:click={() => selectTab(tab)}
-	class="flex p-4 text-right"
+	class="flex p-4 text-left"
 >
 	<svelte:component
 		this={icon}
