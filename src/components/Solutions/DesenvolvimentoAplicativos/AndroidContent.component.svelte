@@ -3,7 +3,7 @@
 </script>
 
 <section class="mt-10">
-    <div class="flex md:flex-row flex-col justify-evenly">
+    <div class="flex sm:flex-row flex-col justify-evenly">
         <CardSolution
             imgSrc="assets/icons/outline/android.svg"
             altImg="Android"
@@ -29,10 +29,10 @@
             secondText="aplicativos PWA"
         />
     </div>
-    <div class="w-screen mt-10">
+    <div class="w-screen mt-10 mb-20">
         <div class="grid grid-rows-3 grid-flow-col gap-4">
             <div class="row-span-3">
-                <img src="assets/img/metodologia-agil.webp" alt="" />
+                <img src="assets/img/metodologia-agil.webp" alt="" class="w-0 md:w-full" />
             </div>
             <div class="col-span-2">
                 <p class="font-light text-4xl">
