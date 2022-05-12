@@ -24,7 +24,7 @@
 </script>
 
 <div class="relative z-50 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="max-w-full mx-auto px-4 sm:px-6">
     <div
       class="flex justify-between items-center border-b-2 border-gray-   py-6 md:justify-start md:space-x-10"
     >
