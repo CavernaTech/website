@@ -6,7 +6,7 @@
         "Get a better understanding of where your traffic is coming from.";
 </script>
 
-<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+<li class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
     <a {href} class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
         <svelte:component
             this={icon}
@@ -19,4 +19,4 @@
             </p>
         </div>
     </a>
-</div>
+</li>
