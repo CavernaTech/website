@@ -1,10 +1,12 @@
 <script>
+  import Banner from "../components/Banner.svelte";
   import NavBar from "../components/Navbar/Navbar.svelte";
 </script>
 
 <header>
   <div class="header">
     <NavBar />
+    <Banner />
   </div>
 </header>
 
