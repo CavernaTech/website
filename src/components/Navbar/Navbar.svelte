@@ -124,7 +124,6 @@
         </a>
       </div>
       <div class="relative dropdown">
-        <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
         <button
           type="button"
           class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -134,7 +133,7 @@
           <ChevronDownIcon size={"20"} strokeWidth={2} />
         </button>
         <div
-          class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 dropdown-content"
+          class="z-10 -ml-4 mt-3 transform px-2 w-screen max-w-sm sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 dropdown-content"
         >
           <div
             class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
