@@ -1,9 +1,9 @@
 <script>
-    import Main from "./contents/Main.page.svelte";
-    import Footer from "./contents/Footer.svelte";
-    import Navbar from "../components/Navbar/Navbar.svelte";
+    import Main from "./Main.page.svelte";
+    import Footer from "./Footer.svelte";
+    import Header from "./Header.svelte";
 </script>
 
-<Navbar />
+<Header />
 <Main />
 <Footer />

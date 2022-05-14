@@ -1,74 +1,130 @@
 <script>
+  import { AwardIcon, UsersIcon, CheckIcon } from "svelte-feather-icons";
 </script>
 
-<section id="sobre" class="content flex flex-col">
+<section class="pb-20 bg-gray-50 -mt-24" id="sobre">
   <div class="container mx-auto px-4">
-    <div class="hero min-h-full bg-base-200 mt-14">
-      <div class="text-center hero-content">
-        <div class="max-w-lg">
-          <h1 class="text-5xl font-bold">Sobre a CavernaTech?</h1>
-          <p class="py-6 justify-center">
-            A CavernaTech e uma startup de desenvolvimento que surgiu da
-            necessidade do mercado com a falta de programadores e profissionais
-            qualificados para executar nos mais diversos projetos!
-            <br /><br />
-            Com mais de 10 anos em experiência em desenvolvimento de soluções, entramos
-            hoje no mercado com uma stack bem diversificada, atendendo as mais diversas
-            exigências do mercado tecnológico.
-          </p>
+    <div class="flex flex-wrap">
+      <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+        >
+          <div class="px-4 py-5 flex-auto">
+            <div
+              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+            >
+              <AwardIcon />
+            </div>
+            <h6 class="text-xl font-semibold">Solução On Demand</h6>
+            <p class="mt-2 mb-4 ">
+              Nossos trabalhos são elaborados e executados com um amplo know-how
+              em tecnologias, trabalho em parceria direta com clientes e
+              flexibilidade para acessar a equipe.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full md:w-4/12 px-4 text-center">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+        >
+          <div class="px-4 py-5 flex-auto">
+            <div
+              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-purple-700"
+            >
+              <CheckIcon />
+            </div>
+            <h6 class="text-xl font-semibold">Qualidade</h6>
+            <p class="mt-2 mb-4 ">
+              Desenvolvemos seguindo padrões. Tornamos qualquer aplicação
+              escalonável conforme o projeto! <br /> E garantimos código limpo tornando
+              qualquer projeto mais leve e otimizado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+        >
+          <div class="px-4 py-5 flex-auto">
+            <div
+              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-600"
+            >
+              <UsersIcon />
+            </div>
+            <h6 class="text-xl font-semibold">Melhor Equipe</h6>
+            <p class="mt-2 mb-4 ">
+              A capacidade de colaboração é o indicador de sucesso de qualquer
+              empresa, com isso nossa equipe e composta com profissionais com a
+              experiência certa para atender as mais diversas necessidades do
+              mercado!
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="hero min-h-full bg-base-200">
-      <div class="flex-col hero-content lg:flex-row-reverse">
-        <img
-          src="assets/img/Man-and-woman-doing-handshake.svg"
-          class="max-w-sm "
-        />
-        <div>
-          <h1 class="text-5xl font-bold">
-            Venha conhecer a CavernaTech e tire seu projeto do papel!
-          </h1>
-          <p class="py-6">
-            Aqui na CavernaTech podemos ajudar você a executar os projetos de
-            sua empresa, somos uma empresa voltada ao desenvolvimento onde nossa
-            stack, ampla e abrangente, tonando assim possível atendermos desde
-            pequenas aplicações ate as soluções mais complexas!
-          </p>
+
+    <div class="flex flex-wrap items-center mt-32">
+      <div class="w-full lg:w-5/12 px-4 mr-auto ml-auto">
+        <div
+          class="w-72 p-3 text-center inline-flex items-center justify-center mb-6"
+        >
+          <img src="assets/caverna-tech/logo-dark.svg" alt="" />
         </div>
+        <h3 class="text-3xl mb-2 font-light leading-normal">
+          Quando nos perguntam, por que
+          <span class="text-4xl font-bold"> CavernaTech? </span>
+        </h3>
+        <p
+          class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
+        >
+          Assim como nas cavernas existem diversos ecossistemas de acordo com
+          sua profundidade, nos da CavernaTech também possuímos diversos
+          ecossistemas de desenvolvimento.
+        </p>
+        <p
+          class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600"
+        >
+          Contamos com equipes especializadas para cada stack, somos rápidos nas
+          entregas e capazes de abraçar diferentes mudanças e necessidades.
+        </p>
       </div>
-    </div>
-    <div class="hero min-h-full bg-base-200">
-      <div class="flex-col hero-content lg:flex-row">
-        <img
-          src="assets/img/Woman-attending-clients-call.svg"
-          class="max-w-sm"
-        />
-        <div>
-          <h1 class="text-5xl font-bold">Porque a CavernaTech?</h1>
-          <p class="py-6">
-            Conseguimos desenvolver as mais diversas soluções sejam elas para
-            agências que necessitam de profissionais para desenvolver seus
-            projetos sejam eles aplicações web, mobile, etc. Assim como projetos
-            para indústria como projetos de automação com coletas de informações
-            da produção e automação de processos!
-          </p>
+
+      <div class="w-full lg:w-4/12 px-4 mr-auto ml-auto">
+        <div
+          class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700"
+        >
+          <img
+            alt="..."
+            src="assets/img/meeting.jpg"
+            class="w-full align-middle rounded-t-lg"
+          />
+          <blockquote class="relative p-8 mb-4">
+            <svg
+              preserveAspectRatio="none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 583 95"
+              class="absolute left-0 w-full block h-95-px -top-94-px"
+            >
+              <polygon
+                points="-30,95 583,95 583,95"
+                class="text-red-400 fill-current"
+              />
+            </svg>
+            <h4 class="text-xl font-bold text-white">
+              Garantimos serviço de alto nível!
+            </h4>
+            <p class="text-md font-light mt-2 text-white">
+              Através de nossas parcerias para que todas as necessidades dos
+              projetos sejam atendidos! Fazendo com que você encontre tudo em um
+              só lugar!
+            </p>
+          </blockquote>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<style lang="postcss" type="text/postcss">
-  .content {
-    @apply flex justify-center min-h-screen;
-    @apply bg-base-200;
-  }
-  .sobre {
-    @apply mt-20;
-  }
-  .title-suffix {
-    @apply font-extrabold;
-    color: "#e74c3c";
-  }
-</style>
