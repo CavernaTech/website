@@ -4,7 +4,6 @@
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     logo = "assets/caverna-tech/logo-dark.svg";
   }
-  var Bars = "assets/icons/bar.svg";
   var whatsappIcon = "assets/icons/outline/whatsapp.svg";
 
   import {
@@ -89,7 +88,7 @@
             </div>
             <div class="flow-root">
               <a
-                href="#contact-id"
+                href="#contato"
                 class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
               >
                 <PhoneIcon strokeWidth={2} size={"20"} />
@@ -182,7 +181,7 @@
               </div>
               <div class="flow-root">
                 <a
-                  href="#contact-id"
+                  href="#contato"
                   class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                 >
                   <PhoneIcon strokeWidth={2} size={"20"} />
