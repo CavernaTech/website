@@ -40,37 +40,31 @@
         </svg>
       </button>
       <div
-        class="absolute z-10 mt-5 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 dropdown-content"
+        class="absolute z-10 -ml-4 mt-5 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 dropdown-content"
       >
         <div
-          class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 h-screen overflow-scroll"
+          class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 h-screen overflow-scroll bg-gray-50"
         >
           <ItemList
-            href="#contact-id"
+            href="#solucoes"
             icon={SmartphoneIcon}
             title="Desenvolvimento de Aplicativos"
             description="Desenvolvimento de aplicativos personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
           />
           <ItemList
-            href="#"
+            href="#solucoes"
             icon={CodeIcon}
             title="Desenvolvimento de Software"
             description="Desenvolvimento de software personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
           />
           <ItemList
-            href="#"
+            href="#solucoes"
             icon={GridIcon}
             title="Integrações"
             description="Conecte vários sistemas, fontes de dados e aplicativos sob o mesmo teto digital para atender às crescentes demandas de negócios e gerenciar sua operação sem problemas."
           />
           <ItemList
-            href="#"
-            icon={RefreshCcwIcon}
-            title="Automação"
-            description="Criamos plataformas de controle de automação, geramos dados através dos dados coletados e criamos formas inteligentes de gerenciar sua operação, gerando resultados de verdade para sua empresa."
-          />
-          <ItemList
-            href="#"
+            href="#solucoes"
             icon={GitMergeIcon}
             title="Outsourcing IT"
             description="Resolva os desafios de falta de talentos em tecnologia com nossa equipe de soluções dedicada para empresas e startups em crescimento."
@@ -139,31 +133,31 @@
             class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
           >
             <ItemList
-              href="#contact-id"
+              href="#solucoes"
               icon={SmartphoneIcon}
               title="Desenvolvimento de Aplicativos"
               description="Desenvolvimento de aplicativos personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
             />
             <ItemList
-              href="#"
+              href="#solucoes"
               icon={CodeIcon}
               title="Desenvolvimento de Software"
               description="Desenvolvimento de software personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
             />
             <ItemList
-              href="#"
+              href="#solucoes"
               icon={GridIcon}
               title="Integrações"
               description="Conecte vários sistemas, fontes de dados e aplicativos sob o mesmo teto digital para atender às crescentes demandas de negócios e gerenciar sua operação sem problemas."
             />
             <ItemList
-              href="#"
+              href="#solucoes"
               icon={RefreshCcwIcon}
               title="Automação"
               description="Criamos plataformas de controle de automação, geramos dados através dos dados coletados e criamos formas inteligentes de gerenciar sua operação, gerando resultados de verdade para sua empresa."
             />
             <ItemList
-              href="#"
+              href="#solucoes"
               icon={GitMergeIcon}
               title="Outsourcing IT"
               description="Resolva os desafios de falta de talentos em tecnologia com nossa equipe de soluções dedicada para empresas e startups em crescimento."
@@ -202,6 +196,6 @@
     </div>
   </div>
   <div class="navbar-end">
-    <a href="http://#" class="btn">Entrar em contato</a>
+    <a href="#contato" class="btn">Entrar em contato</a>
   </div>
 </div>

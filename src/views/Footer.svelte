@@ -30,7 +30,7 @@
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap text-center lg:text-left">
       <div class="w-full lg:w-6/12 px-4">
-        <h4 class="text-3xl font-semibold">Nao deixa de nos seguir!</h4>
+        <h4 class="text-3xl font-semibold">Não deixe de nos seguir!</h4>
         <h5 class="text-lg mt-0 mb-2 text-gray-600">
           Acompanhe-nos em nossas redes e fique por dentro das novidades da
           CavernaTech.
@@ -40,19 +40,25 @@
             class="h-10 w-10 items-center justify-center align-center outline-none mr-2"
             type="button"
           >
-            <FacebookIcon />
+            <a href="https://www.facebook.com/CavernaTech">
+              <FacebookIcon />
+            </a>
           </button>
           <button
             class="h-10 w-10 items-center justify-center align-center outline-none mr-2"
             type="button"
           >
-            <InstagramIcon />
+            <a href="https://www.instagram.com/cavernatech.dev/">
+              <InstagramIcon />
+            </a>
           </button>
           <button
             class="h-10 w-10 items-center justify-center align-center outline-none mr-2"
             type="button"
           >
-            <GithubIcon />
+            <a href="https://github.com/CavernaTech/">
+              <GithubIcon />
+            </a>
           </button>
         </div>
       </div>
@@ -68,7 +74,7 @@
               <li>
                 <a
                   class="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                  href="https://www.creative-tim.com/presentation?ref=ns-footer"
+                  href="#sobre"
                 >
                   Sobre nos
                 </a>
@@ -76,7 +82,7 @@
               <li>
                 <a
                   class="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                  href="https://blog.creative-tim.com?ref=ns-footer"
+                  href="https://blog.cavernatech.dev"
                 >
                   Blog
                 </a>
@@ -84,17 +90,9 @@
               <li>
                 <a
                   class="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                  href="https://www.github.com/creativetimofficial?ref=ns-footer"
+                  href="https://github.com/CavernaTech/"
                 >
                   Github
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                  href="https://www.creative-tim.com/bootstrap-themes/free?ref=ns-footer"
-                >
-                  Projetos CT
                 </a>
               </li>
             </ul>
