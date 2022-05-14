@@ -11,7 +11,7 @@
 </script>
 
 <section class="mt-10">
-    <div class="flex flex-row divide-x-8">
+    <div class="flex md:flex-row flex-col md:divide-x-8">
         <div class="p-5">
             <p class="font-light text-4xl">Software house com</p>
             <p class="font-bold text-4xl">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="mb-20">
         <div class="p-5">
             <p class="font-bold text-4xl text-center">
                 Vantagens de contratar a CavernaTech
@@ -62,10 +62,12 @@
                 para desenvolvimento de software
             </p>
         </div>
-        <div class="grid grid-cols-3 gap-3 mb-10">
+        <div
+            class="flex flex-wrap mb-10"
+        >
             <CardDesc
                 title="Início rápido e
-            entregas frequentes"
+                entregas frequentes"
                 description="Agilidade é parte da cultura CavernaTech. Com alocação rápida de profissionais, iniciamos projetos na velocidade que sua empresa precisa e entregamos valor agregado continuamente."
             />
             <CardDesc

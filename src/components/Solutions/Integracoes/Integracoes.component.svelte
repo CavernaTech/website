@@ -79,7 +79,7 @@
         secondText="agronegócio"
     />
     </div>
-    <div class="p-5">
+    <div class="p-5 mb-20">
         <div class="container mt-5 text-xl text-center">
             Sua aplicação precisa estar conectada com o mundo. Disponibilize
             para seus clientes e parceiros pontos de integração e não perca boas
