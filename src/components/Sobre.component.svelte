@@ -2,7 +2,7 @@
   import { AwardIcon, UsersIcon, CheckIcon } from "svelte-feather-icons";
 </script>
 
-<section class="pb-20 bg-gray-50 -mt-24" id="intro-id">
+<section class="pb-20 bg-gray-50 -mt-24" id="sobre">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap">
       <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -68,7 +68,7 @@
     </div>
 
     <div class="flex flex-wrap items-center mt-32">
-      <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+      <div class="w-full lg:w-5/12 px-4 mr-auto ml-auto">
         <div
           class="w-72 p-3 text-center inline-flex items-center justify-center mb-6"
         >
@@ -93,7 +93,7 @@
         </p>
       </div>
 
-      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+      <div class="w-full lg:w-4/12 px-4 mr-auto ml-auto">
         <div
           class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700"
         >

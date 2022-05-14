@@ -32,7 +32,7 @@
   };
 </script>
 
-<section class="relative block bg-gray-800">
+<section class="relative block bg-gray-800" id="contato">
   <div
     class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
     style="transform: translateZ(0);"
@@ -119,8 +119,12 @@
           bind:value={message}
         />
       {/if}
-      <Terms bind:agreed onAgreement={handleAgreement} bind:whenAgreed />
-      <button class="submit" disabled={!agreed} type="submit"> Enviar </button>
+      <div class="mt-5">
+        <Terms bind:agreed onAgreement={handleAgreement} bind:whenAgreed />
+      </div>
+      <button class="submit mb-20" disabled={!agreed} type="submit">
+        Enviar
+      </button>
     </form>
   </div>
 </section>
