@@ -111,7 +111,7 @@
     <div class="flex p-0 flex-row">
       <div class="mr-4">
         <a
-          href="#intro-id"
+          href="#sobre"
           class="text-base font-medium text-gray-500 hover:text-gray-900"
         >
           CavernaTech
