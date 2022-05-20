@@ -1,0 +1,5 @@
+<svg id="visual" viewBox="0 0 3840 2160" width="3840" height="2160"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <path d="M0 1796L349 1865L698 1671L1047 1610L1396 1418L1745 1666L2095 1674L2444 1382L2793 1302L3142 1631L3491 1844L3840 1479L3840 2161L3491 2161L3142 2161L2793 2161L2444 2161L2095 2161L1745 2161L1396 2161L1047 2161L698 2161L349 2161L0 2161Z" fill="#8062AA" stroke-linecap="square" stroke-linejoin="bevel"></path>
+</svg>
