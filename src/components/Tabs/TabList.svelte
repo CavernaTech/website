@@ -4,6 +4,7 @@
 
 <style lang="postcss" type="text/postcss">
 	.tab-list {
-		@apply xl:border-b-2 border-purple-600;
+		@apply border-b-2 border-purple-600;
+		@apply flex flex-nowrap mx-auto overflow-x-auto;
 	}
 </style>

@@ -13,7 +13,7 @@
     } from "svelte-feather-icons";
 </script>
 
-<section class="mt-10">
+<section class="mt-10 lg:max-w-6xl lg:mx-auto">
     <div class="p-5">
         <p class="font-light text-4xl text-center">
             Construimos a plataforma ideal para
@@ -29,7 +29,7 @@
             complexas.
         </div>
     </div>
-    <div class="flex md:w-screen md:flex-row sm:flex-col justify-evenly">
+    <div class="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 justify-evenly">
         <CardSolution
             imgSrc={ShoppingBagIcon}
             altImg="Varejo"

@@ -2,7 +2,7 @@
     import HeroLeft from "./HeroLeft.component.svelte";
 </script>
 
-<section class="mt-10">
+<section class="mt-10 lg:max-w-6xl lg:mx-auto">
     <div class="p-5">
         <p class="font-light text-4xl text-center">
             Suprimos as necessidades especificas

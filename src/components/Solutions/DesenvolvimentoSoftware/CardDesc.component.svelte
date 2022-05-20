@@ -3,7 +3,7 @@
     export var description = "Undefined";
 </script>
 
-<div class="max-w-sm">
-    <p class="font-bold text-lg w-60">{title}</p>
+<div>
+    <p class="font-bold text-lg">{title}</p>
     <p class="mt-2 text-sm">{description}</p>
 </div>
