@@ -14,9 +14,11 @@
         class="max-w-xl rounded-lg"
       />
       <div>
-        <h1 class="text-6xl font-bold">Desenvolvimento mobile</h1>
+        <h1 class="text-6xl font-bold">Desenvolvimento de Aplicativos</h1>
         <p class="py-6 text-2xl">
-          Trabalhamos com metodologia específica para criação de aplicativos
+          Críamos aplicativos conforme suas necessidades,
+          com enfâse em aplicativos Flutter, PWAs em ReactJS,
+          e estando flexíveis ao desenvolvimento nativo no mobile!
         </p>
       </div>
     </div>
