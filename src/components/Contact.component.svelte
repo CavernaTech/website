@@ -32,7 +32,7 @@
   };
 </script>
 
-<section class="relative block bg-gray-800" id="contato">
+<section class="relative block bg-gray-800 pt-12" id="contato">
   <div
     class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
     style="transform: translateZ(0);"
@@ -53,7 +53,7 @@
     </svg>
   </div>
 
-  <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+  <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 max-w-4xl">
     <form action="#" class="w-full" on:submit={handleSubmit}>
       <h4 class="section-title text-center">Entramos em contato!</h4>
       <p class="sub-section-title text-center">
