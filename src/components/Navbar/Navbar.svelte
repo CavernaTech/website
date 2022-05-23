@@ -1,4 +1,6 @@
 <script>
+  import { Link } from "svelte-routing";
+
   var logo = "assets/caverna-tech/logo.svg";
 
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -100,9 +102,9 @@
       </div>
     </div>
     <div>
-      <a href="http://#">
+      <Link to="">
         <img class="h-8 w-auto sm:h-14" src={logo} alt="" />
-      </a>
+      </Link>
     </div>
   </div>
 

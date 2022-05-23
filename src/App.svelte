@@ -1,9 +1,12 @@
 <script>
-import Index from "./views/index.page.svelte";
+  import { Router, Route } from "svelte-routing";
+  import Index from "./views/index.page.svelte";
+  import Mobile from "./views/Mobile.page.svelte";
 
+  export let url = "";
 </script>
 
-<Index />
-
-<style>
-</style>
+<Router {url}>
+    <Route path="mobile" component={Mobile} />
+    <Route path="/"><Index /></Route>
+</Router>
