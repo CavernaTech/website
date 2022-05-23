@@ -94,7 +94,7 @@
           </div>
         </div>
         <button class="btn btn-link">
-          <Link to="mobile">Veja mais sobre</Link>
+          <Link to="#mobile">Veja mais sobre</Link>
         </button>
       </div>
     </div>

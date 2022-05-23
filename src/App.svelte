@@ -7,6 +7,6 @@
 </script>
 
 <Router {url}>
-    <Route path="mobile" component={Mobile} />
+    <Route path="#mobile" component={Mobile} />
     <Route path="/"><Index /></Route>
 </Router>
