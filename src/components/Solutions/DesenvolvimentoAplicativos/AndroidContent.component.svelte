@@ -2,8 +2,8 @@
     import CardSolution from "./CardSolution.component.svelte";
 </script>
 
-<section class="mt-10">
-    <div class="flex sm:flex-row flex-col justify-evenly">
+<section class="mt-10 lg:max-w-6xl lg:mx-auto">
+    <div class="grid grid-rows-4 grid-cols-1 sm:grid-rows-2 sm:grid-cols-2 md:grid-rows-1 md:grid-cols-4 justify-evenly">
         <CardSolution
             imgSrc="assets/icons/outline/android.svg"
             altImg="Android"
@@ -29,7 +29,7 @@
             secondText="aplicativos PWA"
         />
     </div>
-    <div class="w-screen mt-10 mb-20">
+    <div class="mt-10 mb-20">
         <div class="grid grid-rows-3 grid-flow-col gap-4">
             <div class="row-span-3">
                 <img src="assets/img/metodologia-agil.webp" alt="" class="w-0 md:w-full" />
@@ -41,8 +41,8 @@
                 <p class="font-bold text-4xl">para criação de aplicativos</p>
             </div>
             <div class="row-span-2 col-span-2">
-                <div class="grid grid-rows-2 grid-flow-col gap-2">
-                    <div class="max-w-sm p-2">
+                <div class="grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-2">
+                    <div class="lg:max-w-sm p-2">
                         <p class="font-bold text-lg">
                             Especificação e <br /> Arquitetura de aplicativos
                         </p>
@@ -54,7 +54,7 @@
                             do aplicativo.
                         </p>
                     </div>
-                    <div class="max-w-sm p-2">
+                    <div class="lg:max-w-sm p-2">
                         <p class="font-bold text-lg">
                             Desenvolvimento ágil <br /> de aplicativos
                         </p>
@@ -65,7 +65,7 @@
                             melhores tecnologias e linguagens.
                         </p>
                     </div>
-                    <div class="max-w-sm p-2">
+                    <div class="lg:max-w-sm p-2">
                         <p class="font-bold text-lg">
                             Mobile UX Design fluida <br /> e consistente
                         </p>
@@ -76,7 +76,7 @@
                             cliente.
                         </p>
                     </div>
-                    <div class="max-w-sm p-2">
+                    <div class="lg:max-w-sm p-2">
                         <p class="font-bold text-lg">
                             Gestão próxima e <br /> indicadores
                         </p>

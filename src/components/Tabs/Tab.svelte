@@ -13,7 +13,7 @@
 <button
 	class:selected={$selectedTab === tab}
 	on:click={() => selectTab(tab)}
-	class="flex p-4 text-left"
+	class="p-4 text-left w-full flex"
 >
 	<svelte:component
 		this={icon}
@@ -24,7 +24,7 @@
 
 <style lang="postcss" type="text/postcss">
 	button {
-		@apply m-0 text-gray-500;
+		@apply m-0 text-gray-500 whitespace-nowrap;
 	}
 	.selected {
 		@apply border-b-2 border-purple-600 text-purple-600;

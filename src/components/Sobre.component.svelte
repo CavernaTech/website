@@ -1,8 +1,9 @@
 <script>
   import { AwardIcon, UsersIcon, CheckIcon } from "svelte-feather-icons";
+  var WavesBG = "assets/img/wave-haikei.svg";
 </script>
 
-<section class="pb-20 bg-gray-50 -mt-24" id="sobre">
+<section class="pb-20 bg-cover -mt-24" style="background-image: url('/assets/img/wave-haikei.svg');" id="sobre">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap">
       <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">

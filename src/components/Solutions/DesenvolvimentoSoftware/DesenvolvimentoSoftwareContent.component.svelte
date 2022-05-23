@@ -10,8 +10,8 @@
     import CardDesc from "./CardDesc.component.svelte";
 </script>
 
-<section class="mt-10">
-    <div class="flex md:flex-row flex-col md:divide-x-8">
+<section class="mt-10 lg:max-w-6xl lg:mx-auto">
+    <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
         <div class="p-5">
             <p class="font-light text-4xl">Software house com</p>
             <p class="font-bold text-4xl">
@@ -29,7 +29,7 @@
         <div class="p-5">
             <p class="font-light text-4xl">Temos o que sua empresa precisa,</p>
             <p class="font-bold text-4xl">em diversas tecnologias para:</p>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 max-w-xs sm:grid-cols-2 sm:max-w-full gap-4 mx-auto">
                 <CardDev
                     icon={CodeIcon}
                     firstText="Desenvolvimento"
@@ -63,7 +63,7 @@
             </p>
         </div>
         <div
-            class="flex flex-wrap mb-10"
+            class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10"
         >
             <CardDesc
                 title="Início rápido e

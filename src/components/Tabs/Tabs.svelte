@@ -51,6 +51,6 @@
 	});
 </script>
 
-<div class="tabs">
+<div class="tabs container mx-auto p-4">
 	<slot />
 </div>
