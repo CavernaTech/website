@@ -32,7 +32,7 @@
   };
 </script>
 
-<section class="relative block bg-gray-800" id="contato">
+<section class="relative block bg-gray-800 pt-12" id="contato">
   <div
     class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
     style="transform: translateZ(0);"
