@@ -53,7 +53,7 @@
     </svg>
   </div>
 
-  <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+  <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 max-w-4xl">
     <form action="#" class="w-full" on:submit={handleSubmit}>
       <h4 class="section-title text-center">Entramos em contato!</h4>
       <p class="sub-section-title text-center">

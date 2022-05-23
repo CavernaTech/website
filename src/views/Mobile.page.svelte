@@ -27,7 +27,7 @@
   >
     <div class="hero-overlay bg-opacity-60" />
     <div class="hero-content text-center text-neutral-content">
-      <div class="max-w-md">
+      <div class="max-w-lg">
         <h1 class="mb-5 text-6xl font-bold">
           Desenvolvimento ágil de aplicativos
         </h1>
@@ -57,7 +57,7 @@
   </div>
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
-      <div class="max-w-md">
+      <div class="max-w-lg">
         <h1 class="text-6xl font-bold">
           Mobile UX Design fluida e consistente
         </h1>
@@ -75,7 +75,7 @@
   >
     <div class="hero-overlay bg-opacity-60" />
     <div class="hero-content text-center text-neutral-content">
-      <div class="max-w-md">
+      <div class="max-w-lg">
         <h1 class="mb-5 text-6xl font-bold">Gestão próxima e indicadores</h1>
         <p class="mb-5 text-2xl">
           Nossa equipe de desenvolvimento mobile apoia seu projeto de app em
