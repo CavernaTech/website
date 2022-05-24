@@ -132,13 +132,13 @@
             class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
           >
             <ItemList
-              href="#solucoes"
+              href="#/mobile"
               icon={SmartphoneIcon}
               title="Desenvolvimento de Aplicativos"
               description="Desenvolvimento de aplicativos personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
             />
             <ItemList
-              href="#solucoes"
+              href="#/software"
               icon={CodeIcon}
               title="Desenvolvimento de Software"
               description="Desenvolvimento de software personalizado com a tecnologia certa, para atingir suas metas de negócios e encantar seus clientes."
