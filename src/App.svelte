@@ -1,12 +1,15 @@
 <script>
-  import { Router, Route } from "svelte-routing";
+  import Router from "svelte-spa-router";
+  import { wrap } from "svelte-spa-router/wrap";
   import Index from "./views/index.page.svelte";
-  import Mobile from "./views/Mobile.page.svelte";
 
-  export let url = "";
+  const routes = {
+    "/": Index,
+    "/mobile": wrap({
+      asyncComponent: () => import("./views/Mobile.page.svelte"),
+    }),
+    "*": Index,
+  };
 </script>
 
-<Router {url}>
-    <Route path="#mobile" component={Mobile} />
-    <Route path="/"><Index /></Route>
-</Router>
+<Router {routes} />

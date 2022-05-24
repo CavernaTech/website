@@ -1,6 +1,4 @@
 <script>
-    import { Link } from "svelte-routing";
-
   import CardSolution from "./CardSolution.component.svelte";
 </script>
 
@@ -93,9 +91,7 @@
             </p>
           </div>
         </div>
-        <button class="btn btn-link">
-          <Link to="#mobile">Veja mais sobre</Link>
-        </button>
+        <a href="#/mobile" class="btn btn-link">Veja mais sobre</a>
       </div>
     </div>
   </div>
