@@ -11,7 +11,7 @@
       <img
         src="assets/img/metodologia-agil.webp"
         alt="Aplicativos robustos e complexos"
-        class="max-w-xl rounded-lg"
+        class="min-w-xs lg:max-w-lg rounded-lg"
       />
       <div>
         <h1 class="text-6xl font-bold">Desenvolvimento de Aplicativos</h1>
@@ -43,7 +43,7 @@
   </div>
   <div class="hero min-h-screen bg-gray-800 text-gray-200">
     <div class="hero-content flex-col lg:flex-row-reverse">
-      <img src="assets/img/structure.jpg" alt="" class="max-w-xl rounded-lg" />
+      <img src="assets/img/structure.jpg" alt="" class="min-w-xs lg:max-w-lg rounded-lg" />
       <div>
         <h1 class="text-6xl font-bold">
           Especificação e Arquitetura de aplicativos
