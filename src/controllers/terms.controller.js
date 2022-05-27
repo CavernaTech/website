@@ -2,7 +2,6 @@ import TermsProvider from "../providers/terms.provider";
 import TermsRepository from "../repositories/terms.repository";
 
 class TermsController {
-
   static isAgreed() {
     return TermsProvider.terms.agreed;
   }
