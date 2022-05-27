@@ -15,7 +15,7 @@
     import AndroidContent from "./DesenvolvimentoAplicativos/AndroidContent.component.svelte";
     import DesenvolvimentoSoftwareContent from "./DesenvolvimentoSoftware/DesenvolvimentoSoftwareContent.component.svelte";
     import Integracoes from "./Integracoes/Integracoes.component.svelte";
-    import Outsourcing from "./Outsourcing /Outsourcing.component.svelte";
+    import Outsourcing from "./Outsourcing/Outsourcing.component.svelte";
 </script>
 
 <section class="min-h-screen justify-center bg-white" id="solucoes">
