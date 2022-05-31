@@ -7,7 +7,7 @@
   export let onAgreement;
   export let banner = false;
 
-  if (banner) {
+  if (banner && !agreed) {
     showTerms = 'modal-open';
   }
 
